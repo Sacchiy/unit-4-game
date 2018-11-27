@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    
+
+<head>
+<meta charset="utf-8">
+<script  src="https://code.jquery.com/jquery-3.3.1.js"integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Crystals Collector!</h1>
+        <div id="instruction"> You will be given a random number at the start of the game.
+            <p>There are four crystals below. Click on a crystal and a specific amount of points will be added to your total score.</p>
+            <p>You will win the game by matching your total score to random number, you will lose the game if your total score goes above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
+        <div class="target">
+            <div id="target"></div>
+            <div class="record">
+                <div id="results"> --- </div>
+                <div id="winCount"> wins = 0 </div>
+                <div id="lossCount"> losses = 0 </div>
+            </div>
+        </div>
+        <div class="gems">
+            <button id="diamond"><img src="assets/images/diamond.png" alt="diamond" style="width: 75px;height:75px;"></button>
+            <button id="ruby"><img src="assets/images/ruby.jpg" alt="ruby" style="width: 75px;height:75px;"></button>
+            <button id="emerald"><img src="assets/images/emerald.jpg" alt="emerald" style="width: 75px;height:75px;"></button>
+            <button id="amethyst"><img src="assets/images/amethyst.png" alt="amethyst" style="width: 75px;height:75px;"></button>
+        </div>
+        <div class="totalScore">
+        <div id="total">Your total score is...</div>
+        <div id="totalScore"></div>
+        </div>
+    </div>
+</body>
+
+</html>
