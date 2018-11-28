@@ -11,6 +11,11 @@ h1 {
     width: 60%;
 }
 
+img {
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+}
 .container{
     display: grid;
     grid-template-columns: 60%;
@@ -20,21 +25,16 @@ h1 {
 .target{
     display: grid;
     grid-template-columns: 50% 25%;
-    font-size:30px;
-    color: white;
-    background-color: rgb(252, 128, 57);
-    width: 75%;
-    padding: 10px;
-    margin: 5px 0px 5px 0px;
-
 }
 
 .record{
     display: grid;
     grid-template-columns: 100%;
-    background-color: peachpuff;
+    color: white;
+    background-color: rgb(238, 157, 51);
     font-size: 15px;
-    padding: 5px; 
+    font-weight: bold;
+    padding: 10px; 
     margin-top: 5px;
 }
 
@@ -47,23 +47,34 @@ h1 {
 .totalScore {
     width: 75%;
     margin: 5px 0px 5px 0px;
+    padding: 5px; 
 }
 
 #instruction {
-    color:#2b59f0 ; 
-    background-color: #b6f3ff;
+    color: white ; 
+    background-color: #28a558;
     padding: 15px;
-    border: 1px solid #2b59f0;
+    border: 1px solid rgb(166, 253, 154);
     margin-bottom: 10px;
+}
+
+#target{
+    font-size:30px;
+    color: white;
+    background-color: rgb(252, 128, 57);
+    width: 75%;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
 }
 
 #total {
     color: white;
-    background-color: #132fa8;
+    background-color: #31b985;
     margin-bottom: 5px; 
 }
 #totalScore{
     color: white;
-    background-color: #132fa8;
+    background-color: #31b985;
     padding: 15px; 
+    font-size: 30px;
 }
